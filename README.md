@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/rajeshsegu/parse-function-string.svg?branch=master)](https://travis-ci.org/rajeshsegu/parse-function-string)
+[![Coverage Status](https://coveralls.io/repos/rajeshsegu/parse-function-string/badge.svg?branch=master&service=github)](https://coveralls.io/github/rajeshsegu/parse-function-string?branch=master)
+
 
 # parse-function-string
 
