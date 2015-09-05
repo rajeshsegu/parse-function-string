@@ -100,11 +100,3 @@ test('parseFunctionString', function run(it) {
     t.end();
   });
 });
-
-{
-  name: 'sample', params: 'arg1, arg2, arg3',
-  args: ['arg1', 'arg2', 'arg3'],
-  body: ' return true; ',
-  called: false,
-  defn: true
-}
