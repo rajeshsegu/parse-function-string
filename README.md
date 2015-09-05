@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rajeshsegu/parse-function-string.svg?branch=master)](https://travis-ci.org/rajeshsegu/parse-function-string)
+
 # parse-function-string
 
 Parse a given function / function string to identify its structure.
