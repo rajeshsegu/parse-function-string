@@ -8,7 +8,9 @@
     "type": "git",
     "url": "https://github.com/rajeshsegu/parse-function-string"
   },
-  "licenses": ["MIT"],
+  "license": {
+    "type": "MIT"
+  },
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -23,13 +25,13 @@
     "changelog-major": "build-changelog --major",
     "changelog-minor": "build-changelog --minor",
     "changelog-patch": "build-changelog --patch",
-    "cover": "istanbul cover --report cobertura --print detail tape -- test/*.tap.js",
+    "cover": "istanbul cover --report cobertura --report lcovonly --print detail tape -- test/*.tap.js",
     "fast-test": "tape test/*.tap.js",
     "lint": "uber-standard **/*.js",
     "test": "npm run lint -s && npm run cover -s",
     "view-cover": "istanbul report html && opn ./coverage/index.html"
   },
-   "engines": {
+  "engines": {
     "node": "0.10.x",
     "npm": "2.x"
   }
