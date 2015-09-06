@@ -22,6 +22,29 @@ npm install --save parse-function-string
 
 ## Usage
 
+#### Function Call
+
+```
+var parseFnString = require('parse-function-string');
+var fn = 'sample(arg1, arg2, arg3)';
+
+parseFnString(fn);
+```
+
+```
+Output:
+{
+  name: 'sample',
+  params: 'arg1, arg2, arg3',
+  args: ['arg1', 'arg2', 'arg3'],
+  body: '',
+  called: true,
+  defn: false
+}
+```
+
+#### Function Definition
+
 ```
 var parseFnString = require('parse-function-string');
 var fn = function sample(arg1, arg2, arg3) { return true; }
@@ -30,7 +53,7 @@ parseFnString(fn);
 ```
 
 ```
-Sample Output:
+Output:
 {
   name: 'sample',
   params: 'arg1, arg2, arg3',
