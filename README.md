@@ -46,9 +46,11 @@ Output:
 
 #### Function Definition
 
+You can pass a function or a function string
+
 ```
 var parseFnString = require('parse-function-string');
-var fn = function sample(arg1, arg2, arg3) { return true; }
+var fn = 'function sample(arg1, arg2, arg3) { return true; }';
 
 parseFnString(fn);
 ```
