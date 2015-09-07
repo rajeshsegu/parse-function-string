@@ -1,0 +1,13 @@
+2015-09-07 - 0.1.1 (da85890)
+da85890 (HEAD -> master, origin/master) function example
+66a7742 order attributes
+1f08dce update with fn call
+6188f7a add coverage badge
+012c4b7 setup travis ci
+37ce924 setup coverage
+b61c97f Update README.md
+b46b6d5 setup travis ci
+8282fbe remove junk code
+2ac7c3d parse function string commit
+
+
